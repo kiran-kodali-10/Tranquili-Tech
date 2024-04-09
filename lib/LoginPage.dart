@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:wellness/Registrationpage.dart';
-
+import 'package:wellness/Profilepage.dart';
 
 class Login extends StatelessWidget {
   const Login({super.key});
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -146,7 +145,7 @@ class Login extends StatelessWidget {
 //////////////////////////
             TextButton(
               onPressed: () {
-
+                Navigator.push(context, new MaterialPageRoute(builder: (context) => Profile()));
               },
               style: ButtonStyle(
                 shape: MaterialStateProperty.all<OutlinedBorder>(

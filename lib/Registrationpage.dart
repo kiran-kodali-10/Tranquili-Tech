@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:wellness/LoginPage.dart';
 
 class Register extends StatelessWidget {
   const Register({super.key});
@@ -246,6 +247,7 @@ class Register extends StatelessWidget {
                     ),
                     TextButton(
                       onPressed: () {
+                        Navigator.push(context, new MaterialPageRoute(builder: (context) => Login()));
                       },
                       style: ButtonStyle(
                         shape: MaterialStateProperty.all<OutlinedBorder>(
@@ -266,7 +268,6 @@ class Register extends StatelessWidget {
                       child: Text(
                         'SUBMIT',
                         style: TextStyle(
-
                           fontSize: 17,
                         ),
                       ),
