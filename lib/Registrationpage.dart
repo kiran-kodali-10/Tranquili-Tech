@@ -46,7 +46,7 @@ class Register extends StatelessWidget {
                             ),
                             decoration: InputDecoration(
                               label: Text(
-                                'First Name',
+                                'First name',
                                 style: TextStyle(
                                   fontSize: 20.0,
                                   fontWeight: FontWeight.bold,
@@ -84,7 +84,7 @@ class Register extends StatelessWidget {
                         ),
                         decoration: InputDecoration(
                           label: Text(
-                            'Last Name',
+                            'Last name',
                             style: TextStyle(
                               fontSize: 20.0,
                               fontWeight: FontWeight.bold,
